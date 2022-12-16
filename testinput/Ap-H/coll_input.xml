@@ -1,0 +1,12 @@
+<CollInput>
+  <ImpactParam type='linear' bmin='0.2' bmax='2.2' nb='2' />
+  <ImpactVel vx='0.0' vy='0.0' vz='2.0' />
+  <Zgrid type='exp' zmin='-100' zmax='100' nzgrid='200' />
+
+  <Bound stamin='1' stamax='5'/>
+  <SingIon stamin='0' stamax='0'/>
+  <DoubIon stamin='0' stamax='0'/>
+
+  <InitState   type='target' state='1' />
+  <Potential charge='-1.0' exponent='0.0' />
+</CollInput>
